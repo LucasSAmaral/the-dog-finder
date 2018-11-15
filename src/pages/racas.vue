@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import router from '../router'
 export default {
     name: 'Racas',
     data() {
@@ -21,7 +20,7 @@ export default {
         }
     },
     mounted() {
-        getRacas()
+        
     }
 }
 
