@@ -22,8 +22,10 @@ body, html {
 }
 
 #app {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
   max-width: 480px;
   width: 100%;
-  min-height: 300px;
+  margin: 0 auto;
 }
 </style>

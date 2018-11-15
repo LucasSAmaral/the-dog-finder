@@ -18,8 +18,6 @@ export default {
 <style lang="scss">
     .header {
         &__container {
-            font-family: Arial, Helvetica, sans-serif;
-            color: #4d4d4d;
             text-align: center;
             padding: 30px 0;
             border-bottom: 1px solid #4d4d4d;
