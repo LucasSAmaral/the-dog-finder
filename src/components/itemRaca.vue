@@ -4,18 +4,17 @@
             <p class="itemRaca__name">{{breed.name}}</p>
             <p class="itemRaca__temperament">{{breed.temperament}}</p>
             <div class="button__container">
-                <Button class="button" text="About" path="racas"></Button>
+                <router-link class="button" to="racas">About</router-link>
             </div>
         </div>
     </div>    
 </template>
 
 <script>
+import router from '../router'
 import axios from 'axios'
-import Button from '@/components/button'
 export default {
     name: 'itemRaca',
-    components:{Button},
     data() {
         return {
             breeds: null
@@ -55,6 +54,18 @@ export default {
 
         &__temperament {
             margin: 0 0 20px 0;
+        }
+    }
+
+      .button {
+        padding: 12px 15px;
+        border-radius: 3px;
+        background-color: darkseagreen;
+        color: #4d4d4d;
+        text-decoration: none;
+
+        &__container {
+            margin-top: 32px;
         }
     }
 </style>
