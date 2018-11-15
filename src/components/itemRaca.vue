@@ -4,7 +4,7 @@
             <p class="itemRaca__name">{{breed.name}}</p>
             <p class="itemRaca__temperament">{{breed.temperament}}</p>
             <div class="button__container">
-                <router-link class="button" to="racas">About</router-link>
+                <router-link class="button" :to="{ name: 'Racas', params: {id: `${breed.id}`} }">About</router-link>
             </div>
         </div>
     </div>    

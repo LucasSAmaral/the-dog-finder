@@ -13,7 +13,7 @@ export default new Router({
       component: Main
     },
     {
-      path: '/racas',
+      path: '/racas/:id',
       name: 'Racas',
       component: Racas
     }
