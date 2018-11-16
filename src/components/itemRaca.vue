@@ -20,7 +20,7 @@ export default {
         }
     },
     mounted() {
-        axios.get('http://localhost:84/breeds')
+        axios.get('/static/json/breeds.json')
         .then(response => {
             this.breeds = response.data
         })
@@ -65,6 +65,7 @@ export default {
 
         &__container {
             margin-top: 32px;
+            line-height: 2.6;
         }
     }
 </style>
