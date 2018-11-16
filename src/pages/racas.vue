@@ -21,7 +21,7 @@
             </ul>
         </div>
         <div class="button__container">
-                <router-link class="button" :to="{ name: 'Main' }">Back</router-link>
+                <router-link id="back" class="button" :to="{ name: 'Main' }">Back</router-link>
         </div>
     </div>
 </template>
