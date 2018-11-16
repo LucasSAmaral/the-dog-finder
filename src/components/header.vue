@@ -21,6 +21,7 @@ export default {
             text-align: center;
             padding: 30px 0;
             border-bottom: 1px solid #4d4d4d;
+            background-color: #ffffff;
         }
 
         &__title {

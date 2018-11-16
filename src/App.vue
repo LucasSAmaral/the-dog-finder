@@ -16,6 +16,10 @@ export default {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #fffaf0;
+}
+
 body, html {
   margin: 0;
   padding: 0;

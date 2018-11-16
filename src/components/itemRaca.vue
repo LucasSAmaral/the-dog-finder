@@ -1,6 +1,9 @@
 <template>
     <div class="itemRaca__container">
         <div class="itemRaca" v-for="breed in breeds" v-bind:key="breed.id">
+            <div class="itemRaca__container--img">
+                <img :src="`/static/images/${breed.id}.jpg`" :alt="breed.name">
+            </div>
             <p class="itemRaca__name">{{breed.name}}</p>
             <p class="itemRaca__temperament">{{breed.temperament}}</p>
             <div class="button__container">
@@ -39,10 +42,24 @@ export default {
         margin-bottom: 20px;
         padding: 20px;
         text-align: center;
+        background-color: #ffffff;
 
         &__container {
             padding: 0 20px;
             margin-top: 40px;
+
+            &--img {
+
+                margin-bottom: 10px;
+                height: auto;
+                border-radius: 25%;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
         }
 
         &__name {
@@ -59,7 +76,7 @@ export default {
       .button {
         padding: 12px 15px;
         border-radius: 3px;
-        background-color: darkseagreen;
+        background-color: #8fbc8f;
         color: #4d4d4d;
         text-decoration: none;
 

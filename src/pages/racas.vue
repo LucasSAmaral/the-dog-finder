@@ -80,6 +80,8 @@ export default {
                 padding: 10px;
                 list-style: none;
                 border: 1px solid #4d4d4d;
+                border-radius: 3px;
+                background-color: #ffffff;
 
                 li {
                     margin-bottom: 10px;

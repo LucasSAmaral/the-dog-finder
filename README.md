@@ -1,30 +1,55 @@
-# the-dog-finder
+<h1>The Dog Finder</h1>
 
-> Desafio proposto pela MJV
+## Descrição
 
-## Build Setup
+Desafio proposto pela MJV que consiste em desenvolver uma pequena aplicação em HTML, CSS e JavaScript. 
+"The Dog Finder" é uma aplicação web móvel de página única (SPA) que ajuda pessoas a encontrar a raça de cachorro ideal.
+
+### Instalação
+
+Primeiro clone o repositório para sua máquina. Digite o código abaixo.
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+git clone https://github.com/LucasSAmaral/the-dog-finder.git
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Depois de baixar o repositório, entre na pasta do projeto.
+
+``` bash
+cd the-dog-finder
+```
+
+Agora é preciso instalar as dependências do projeto. Para isso, digite:
+
+``` bash
+npm install
+```
+
+Para rodar a aplicação, digite no terminal o código abaixo.
+
+``` bash
+npm run dev
+```
+Basta acessar o endereço http://localhost:8080/ para ver a aplicação rodando.
+
+Para gerar a build, basta digitar:
+``` bash
+npm run build
+```
+E para rodar o teste e2e, digite:
+
+``` bash
+npm run e2e
+```
+
+O teste também está disponível no endereço: 
+
+### Stack utilizado
+
+* Vue.js;
+
+* SASS;
+
+* Kraken.io, para otimizar as imagens;
+
+* Netlify, para hospedar o projeto.
