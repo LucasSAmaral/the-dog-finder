@@ -1,4 +1,4 @@
-{"breeds": [
+[
   {
     "id": 6,
     "name": "Akita",
@@ -19,4 +19,4 @@
     "name": "Golden Retriever",
     "temperament": "Intelligent, Kind, Reliable, Friendly, Trustworthy, Confident"
   }
-]}
+]
