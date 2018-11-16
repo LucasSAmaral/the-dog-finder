@@ -16,7 +16,7 @@ export default {
     name: 'itemRaca',
     data() {
         return {
-            breeds: null
+            breeds: []
         }
     },
     mounted() {
