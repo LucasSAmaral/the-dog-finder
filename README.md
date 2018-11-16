@@ -42,7 +42,7 @@ E para rodar o teste e2e, digite:
 npm run e2e
 ```
 
-O teste também está disponível no endereço: 
+O teste também está disponível no endereço: https://the-dog-finder.netlify.com/#/
 
 ### Stack utilizado
 
